@@ -1,0 +1,251 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #fff;
+}
+
+.header-content {
+    margin-left: 20px; /* Adjust as needed */
+    text-align: left;
+}
+
+header h1 {
+    margin: 0.3rem 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin: 0;
+}
+.projects {
+    margin-top: 20px;
+}
+  
+  .education h2 {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .education-item {
+    /* margin-bottom: 30px; */
+  }
+  
+  .degree h4 {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 0.5px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .degree h4 span.year {
+    font-weight: normal;
+    font-size: 15px;
+    color: #666;
+    margin-left: 10px;
+  }
+  
+  .degree p {
+    font-size: 16px;
+    color: #242323;
+    margin-bottom: 0.5px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .degree p span.cgpa {
+    font-weight: normal;
+    font-size: 15px;
+    color: #030303;
+    margin-left: 10px;
+  }
+  
+  .degree p:last-child {
+    margin-bottom: 0;
+  }
+
+/* Rest of your CSS */
+.projects {
+    margin-top: 20px;
+}
+
+.projects h2 {
+    margin-top: 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.project {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-left: 5px solid #333;
+}
+
+.project h4 {
+    margin-top: 0;
+    color: #333;
+    font-size: 18px;
+}
+
+.project p {
+    color: #666;
+}
+
+.research-papers {
+    margin-top: 20px;
+}
+
+.research-papers h2 {
+    margin-top: 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.paper {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-left: 5px solid #4285f4; /* Google Blue */
+}
+
+.paper h4 {
+    margin-top: 0;
+    color: #333;
+    font-size: 18px;
+}
+
+.paper p {
+    color: #666;
+}
+
+.skills {
+    margin-top: 20px;
+  }
+  
+  .skills h2 {
+    margin-top: 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .skills-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .skills-list li {
+    width: 45%;
+    margin-bottom: 10px;
+  }
+
+  .achievements {
+    margin-top: 20px;
+  }
+  
+  .achievements h2 {
+    margin-top: 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .achievements ul {
+    list-style: disc;
+    padding: 0 20px;
+    margin: 0;
+  }
+  
+  .achievements li {
+    margin-bottom: 10px;
+  }
+
+
+main {
+    max-width: 800px;
+    margin: 5rem auto 2rem;
+    padding: 1rem;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+section h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.job {
+    margin-bottom: 1.5rem;
+}
+
+.job h3 {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.job span {
+    display: block;
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 0.5rem;
+}
+
+
+ul {
+    padding-left: 1.2rem;
+}
+
+ul li {
+    margin-bottom: 0.5rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #333;
+    color: white;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
