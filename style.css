@@ -46,49 +46,46 @@ header p {
     margin-top: 20px;
 }
   
-  .education h2 {
+.education h2 {
     font-weight: bold;
     font-size: 24px;
     margin-bottom: 20px;
-  }
+}
+
   
-  .education-item {
-    /* margin-bottom: 30px; */
-  }
-  
-  .degree h4 {
+.degree h4 {
     font-weight: bold;
     font-size: 16px;
     margin-bottom: 0.5px;
     display: flex;
     justify-content: space-between;
-  }
+}
   
-  .degree h4 span.year {
-    font-weight: normal;
-    font-size: 15px;
-    color: #666;
-    margin-left: 10px;
-  }
+.degree h4 span.year {
+font-weight: normal;
+font-size: 15px;
+color: #666;
+margin-left: 10px;
+}
   
-  .degree p {
-    font-size: 16px;
-    color: #242323;
-    margin-bottom: 0.5px;
-    display: flex;
-    justify-content: space-between;
-  }
+.degree p {
+font-size: 16px;
+color: #242323;
+margin-bottom: 0.5px;
+display: flex;
+justify-content: space-between;
+}
   
-  .degree p span.cgpa {
-    font-weight: normal;
-    font-size: 15px;
-    color: #030303;
-    margin-left: 10px;
-  }
+.degree p span.cgpa {
+font-weight: normal;
+font-size: 15px;
+color: #030303;
+margin-left: 10px;
+}
   
-  .degree p:last-child {
-    margin-bottom: 0;
-  }
+.degree p:last-child {
+margin-bottom: 0;
+}
 
 /* Rest of your CSS */
 .projects {
@@ -149,45 +146,45 @@ header p {
     margin-top: 20px;
   }
   
-  .skills h2 {
-    margin-top: 0;
-    padding-bottom: 10px;
-    border-bottom: 1px solid #ccc;
-  }
+.skills h2 {
+margin-top: 0;
+padding-bottom: 10px;
+border-bottom: 1px solid #ccc;
+}
   
-  .skills-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
+.skills-list {
+list-style: none;
+padding: 0;
+margin: 0;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
   
-  .skills-list li {
-    width: 45%;
-    margin-bottom: 10px;
-  }
+.skills-list li {
+width: 45%;
+margin-bottom: 10px;
+}
 
-  .achievements {
-    margin-top: 20px;
-  }
+.achievements {
+margin-top: 20px;
+}
   
-  .achievements h2 {
-    margin-top: 0;
-    padding-bottom: 10px;
-    border-bottom: 1px solid #ccc;
-  }
+.achievements h2 {
+margin-top: 0;
+padding-bottom: 10px;
+border-bottom: 1px solid #ccc;
+}
   
-  .achievements ul {
-    list-style: disc;
-    padding: 0 20px;
-    margin: 0;
-  }
-  
-  .achievements li {
-    margin-bottom: 10px;
-  }
+.achievements ul {
+list-style: disc;
+padding: 0 20px;
+margin: 0;
+}
+
+.achievements li {
+margin-bottom: 10px;
+}
 
 
 main {
